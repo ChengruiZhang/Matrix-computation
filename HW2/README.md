@@ -1,0 +1,4 @@
+HW2_5.m contains the program used in Problem 5.
+
+HW2_6.m contains the program used in Problem 6.
+It contains 5 parts. The first part is main function, which contains the program of figure ploting and the acquisition of timing information. In this part, we randomly generate a non-singular matrix A, and get the information of time consuming of each algorithm. The other 4 parts are the detail programs of basic inverse, cramer, Gauss elimination and LU decomposition. The input and output of these 4 functions are (matrix A, value b) and unknown variable x respectively. It is worth noting that, since the value of non-singular matrix A are randomly generated, therefore, for the inverse, Gauss elimination and LU decomposition methods, we use pivoting to avoid error.
